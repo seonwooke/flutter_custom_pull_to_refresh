@@ -2,7 +2,7 @@ name: flutter_custom_pull_to_refresh
 description: Customizable pull-to-refresh widget for Flutter with fully flexible loading indicators
 homepage: https://github.com/seonwooke/flutter_custom_pull_to_refresh
 repository: https://github.com/seonwooke/flutter_custom_pull_to_refresh
-version: 1.0.0
+version: 1.0.1
 
 environment:
   sdk: '>=2.12.0 <4.0.0'
