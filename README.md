@@ -1,4 +1,7 @@
 # Custom Pull To Refresh
+<a href="https://pub.dev/packages/flutter_custom_pull_to_refresh">
+  <img src="https://img.shields.io/pub/v/flutter_custom_pull_to_refresh.svg"/>
+</a>
 
 A Flutter widget that adds pull-to-refresh functionality to scrollable widgets. Works on both web and mobile environments and supports custom indicators.
 
@@ -30,11 +33,18 @@ A Flutter widget that adds pull-to-refresh functionality to scrollable widgets. 
 
 ## Installation
 
+Flutter pub add:
+```bash
+flutter pub add flutter_custom_pull_to_refresh
+```
+
+or
+
 Add this package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  flutter_custom_pull_to_refresh: ^1.0.0
+  flutter_custom_pull_to_refresh: ^1.0.2
 ```
 
 Then run:
