@@ -136,15 +136,15 @@ FlutterCustomPullToRefresh(
 
 ### CustomPullToRefresh
 
-| Parameter | Type | Required | Default | Description |
-|-----------|------|----------|---------|-------------|
-| `child` - Widget to wrap with pull-to-refresh functionality | `Widget` | ✅ | - | |
-| `onRefresh` - Callback function executed when refresh is triggered | `VoidCallback` | ✅ | - | |
-| `isRefreshing` - Whether the widget is currently refreshing | `bool` | ✅ | - | |
-| `threshold` - Scroll threshold that triggers refresh (negative value) | `double` | ❌ | `-80.0` | |
-| `indicatorWidget` - Custom widget to display as refresh indicator | `Widget?` | ❌ | `CircularProgressIndicator.adaptive()` | |
-| `indicatorPadding` - Padding around the indicator widget | `EdgeInsets` | ❌ | `EdgeInsets.symmetric(vertical: 24.0)` | |
-| `hasScrollableChild` - Whether the child widget is already scrollable | `bool` | ❌ | `true` | |
+| Parameter | Description | Type | Required | Default |
+|-----------|-------------|------|----------|---------|
+| `child` | Widget to wrap with pull-to-refresh functionality | `Widget` | ✅ | - | |
+| `onRefresh` | Callback function executed when refresh is triggered | `VoidCallback` | ✅ | - | |
+| `isRefreshing` | Whether the widget is currently refreshing | `bool` | ✅ | - | |
+| `threshold` | Scroll threshold that triggers refresh (negative value) | `double` | ❌ | `-80.0` | |
+| `indicatorWidget` | Custom widget to display as refresh indicator | `Widget?` | ❌ | `CircularProgressIndicator.adaptive()` | |
+| `indicatorPadding` | Padding around the indicator widget | `EdgeInsets` | ❌ | `EdgeInsets.symmetric(vertical: 24.0)` | |
+| `hasScrollableChild` | Whether the child widget is already scrollable | `bool` | ❌ | `true` | |
 
 
 ## Contributing
